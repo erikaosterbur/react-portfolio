@@ -3,6 +3,7 @@ import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/f
 
 const faStyle = { color: "white", fontSize: "5em", padding: "10px"};
 const footerStyle = { marginTop: "1rem", position: "fixed", bottom: "0", left: "0", width: "100%"};
+
 var phantom = {
     display: 'block',
     padding: '20px',
