@@ -1,2 +1,23 @@
+* {
+    font-family: Optima, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+@media screen and (min-width: 768px){
+    body {
+        background-image: url('./images/background.jpg');
+    }
+}
+
+@media screen and (max-width: 400px){
+    body {
+        background-image: url('./images/background-vertical.jpg');
+    }
+}
 
   
