@@ -1,7 +1,7 @@
 import React from 'react';
-import { FaGithub, FaTwitterSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
-const style = { color: "black", fontSize: "5em", padding: "10px" }
+const faStyle = { color: "black", fontSize: "5em", padding: "10px" };
 
 function Footer() {
     const handleMouseEnter = e => {
@@ -18,21 +18,28 @@ function Footer() {
                 onMouseLeave={handleMouseLeave} 
                 href="https://github.com/erikaosterbur" 
                 target="_blank" rel="noreferrer">
-                    <FaGithub style={style}/>
+                    <FaGithub style={faStyle}/>
             </a>
             <a 
                 onMouseEnter={handleMouseEnter} 
                 onMouseLeave={handleMouseLeave} 
                 href="https://twitter.com/erika_osterbur" 
                 target="_blank" rel="noreferrer">
-                    <FaTwitterSquare style={style}/>
+                    <FaTwitterSquare style={faStyle}/>
             </a>
             <a 
                 onMouseEnter={handleMouseEnter} 
                 onMouseLeave={handleMouseLeave} 
                 href="https://www.linkedin.com/in/erika-osterbur" 
                 target="_blank" rel="noreferrer">
-                    <FaLinkedin style={style}/>
+                    <FaLinkedin style={faStyle}/>
+            </a>
+            <a 
+                onMouseEnter={handleMouseEnter} 
+                onMouseLeave={handleMouseLeave} 
+                href="mailto:erikaosterbur@gmail.com" 
+                target="_blank" rel="noreferrer">
+                    <FaEnvelope style={faStyle}/>
             </a>
           </div>
         </footer>
