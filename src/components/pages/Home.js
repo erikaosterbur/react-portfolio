@@ -3,10 +3,7 @@ import React from 'react';
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Home Page
-      </p>
+      <img src="/images/becky.jpeg" alt="woman in front of grass and tree" className="img-fluid"/>
     </div>
   );
 }
