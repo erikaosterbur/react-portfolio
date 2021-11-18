@@ -7,9 +7,13 @@ export default function Contact() {
       <div className="container-fluid">
         <div className="row d-flex justify-content-center">
           <form className="col-6">
+           <div className="mb-3">
+              <label for="FormControlInputName" className="form-label">Your name</label>
+              <input type="name" className="form-control" id="FormControlInputName" placeholder="Jane Doe" />
+            </div>
             <div className="mb-3">
-              <label for="FormControlInput" className="form-label">Your email address</label>
-              <input type="email" className="form-control" id="FormControlInput" placeholder="name@example.com" />
+              <label for="FormControlInputEmail" className="form-label">Your email address</label>
+              <input type="email" className="form-control" id="FormControlInputEmail" placeholder="janedoe@mail.com" />
             </div>
             <div className="mb-3">
               <label for="FormControlTextarea" className="form-label">How can I help you?</label>

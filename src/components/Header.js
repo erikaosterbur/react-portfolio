@@ -8,6 +8,12 @@ function Header({ currentPage, handlePageChange }) {
                 <h1>Erika Osterbur</h1>
                 <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                    <li style={{fontSize: '25px'}}>
+                            <a href="#home" onClick={() => handlePageChange('Home')}
+                                className= {currentPage === 'Home' ? 'nav-link active text-secondary' : 'nav-link text-white'}>
+                                Home
+                            </a>
+                        </li>
                         <li style={{fontSize: '25px'}}>
                             <a href="#about" onClick={() => handlePageChange('About')}
                                 className= {currentPage === 'About' ? 'nav-link active text-secondary' : 'nav-link text-white'}>
