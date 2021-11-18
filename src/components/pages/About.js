@@ -40,6 +40,9 @@ export default function About() {
                       <li>
                         💬 Ask me about world travel 🌏 it's my true passion!
                       </li>
+                      <li>
+                        📷 Amateur nature photographer
+                      </li>
                     </ul>
                 </div>
               </div>

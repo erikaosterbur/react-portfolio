@@ -2,14 +2,6 @@ import React from 'react';
 import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const faStyle = { color: "white", fontSize: "5em", padding: "10px"};
-const footerStyle = { marginTop: "1rem", position: "fixed", bottom: "0", left: "0", width: "100%"};
-
-var phantom = {
-    display: 'block',
-    padding: '20px',
-    height: '60px',
-    width: '100%',
-  }
 
 function Footer() {
     const handleMouseEnter = e => {
@@ -19,8 +11,7 @@ function Footer() {
         e.target.style.color = "white"
     }
     return (
-        <footer className="footer" style={footerStyle}>
-            <div style={phantom}></div>
+        <footer className="footer">
             <div className="container text-center">
                 <a 
                     onMouseEnter={handleMouseEnter} 
