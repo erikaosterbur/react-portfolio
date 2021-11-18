@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope, FaInstagramSquare } from "react-icons/fa";
 
 const faStyle = { color: "white", fontSize: "5em", padding: "10px"};
 
@@ -37,6 +37,13 @@ function Footer() {
                 <a 
                     onMouseEnter={handleMouseEnter} 
                     onMouseLeave={handleMouseLeave} 
+                    href="https://www.instagram.com/erika_osterbur/" 
+                    target="_blank" rel="noreferrer">
+                        <FaInstagramSquare style={faStyle}/>
+                </a>
+                <a 
+                    onMouseEnter={handleMouseEnter} 
+                    onMouseLeave={handleMouseLeave} 
                     href="mailto:erikaosterbur@gmail.com" 
                     target="_blank" rel="noreferrer">
                         <FaEnvelope style={faStyle}/>
@@ -47,4 +54,5 @@ function Footer() {
 }
 
 export default Footer;
+
 

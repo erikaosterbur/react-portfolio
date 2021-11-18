@@ -4,21 +4,18 @@ import Recipes from '../../images/recipes.jpg';
 import Weather from '../../images/weather.png';
 import Team from '../../images/team.png';
 import Blog from '../../images/tech-blog.png';
+import PortfolioPage from '../../images/portfolio.png';
 
 export default function Portfolio() {
   return (
     <div className="m-4">
       <h1 className="d-flex justify-content-center">Portfolio of Work</h1>
       <div className="row d-flex justify-content-center">
-      <div className="card mb-3">
-            <div className="row g-0">
-              <div className="col-md-4">
-                <img src={PetMed} className="img-fluid rounded-start" alt="pet dashboard displaying pets of user"/>
-              </div>
-              <div className="col-md-8">
-                <div className="card-body">
-                  <h5 className="card-title">PetMed</h5>
-                  <ul className="card-text">
+      <div className="card m-2 col-3">
+            <img src={PetMed} className="card-img-top" alt="pet dashboard displaying pets of user" />
+            <div className="card-body">
+              <h5 className="card-title">PetMed</h5>
+              <ul className="card-text">
                     <li>
                       HTML + Handlebars
                     </li>
@@ -37,11 +34,9 @@ export default function Portfolio() {
                     <li>
                       Heroku
                     </li>
-                  </ul>
-                  <a href="https://github.com/erikaosterbur/pet-tracker-app.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
-                  <a href="https://group-1-pet-tracker.herokuapp.com/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
-                </div>
-              </div>
+              </ul>
+              <a href="https://github.com/erikaosterbur/pet-tracker-app.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
+              <a href="https://group-1-pet-tracker.herokuapp.com/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
             </div>
           </div>
           <div className="card m-2 col-3">
@@ -114,6 +109,27 @@ export default function Portfolio() {
               </ul>
               <a href="https://github.com/erikaosterbur/weather-dashboard.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
               <a href="https://erikaosterbur.github.io/weather-dashboard/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
+            </div>
+          </div>
+          <div className="card m-2 col-3">
+            <img src={PortfolioPage} className="card-img-top" alt="portfolio homepage" />
+            <div className="card-body">
+              <h5 className="card-title">Professional Portfolio</h5>
+              <ul className="card-text">
+                <li>
+                  HTML
+                </li>
+                <li>
+                  CSS + Bootstrap
+                </li>
+                <li>
+                  JavaScript
+                </li>
+                <li>
+                  React
+                </li>
+              </ul>
+              <a href="https://github.com/erikaosterbur/react-portfolio.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
             </div>
           </div>
           <div className="card m-2 col-3">
