@@ -1,8 +1,6 @@
 import React from 'react';
 import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope, FaInstagramSquare } from "react-icons/fa";
 
-const faStyle = { color: "white", fontSize: "5em", padding: "10px"};
-
 function Footer() {
     const handleMouseEnter = e => {
         e.target.style.color = "black"
@@ -18,35 +16,35 @@ function Footer() {
                     onMouseLeave={handleMouseLeave} 
                     href="https://github.com/erikaosterbur" 
                     target="_blank" rel="noreferrer">
-                        <FaGithub style={faStyle}/>
+                        <FaGithub id="footer-icons"/>
                 </a>
                 <a 
                     onMouseEnter={handleMouseEnter} 
                     onMouseLeave={handleMouseLeave} 
                     href="https://twitter.com/erika_osterbur" 
                     target="_blank" rel="noreferrer">
-                        <FaTwitterSquare style={faStyle}/>
+                        <FaTwitterSquare id="footer-icons"/>
                 </a>
                 <a 
                     onMouseEnter={handleMouseEnter} 
                     onMouseLeave={handleMouseLeave} 
                     href="https://www.linkedin.com/in/erika-osterbur" 
                     target="_blank" rel="noreferrer">
-                        <FaLinkedin style={faStyle}/>
+                        <FaLinkedin id="footer-icons"/>
                 </a>
                 <a 
                     onMouseEnter={handleMouseEnter} 
                     onMouseLeave={handleMouseLeave} 
                     href="https://www.instagram.com/erika_osterbur/" 
                     target="_blank" rel="noreferrer">
-                        <FaInstagramSquare style={faStyle}/>
+                        <FaInstagramSquare id="footer-icons"/>
                 </a>
                 <a 
                     onMouseEnter={handleMouseEnter} 
                     onMouseLeave={handleMouseLeave} 
                     href="mailto:erikaosterbur@gmail.com" 
                     target="_blank" rel="noreferrer">
-                        <FaEnvelope style={faStyle}/>
+                        <FaEnvelope id="footer-icons"/>
                 </a>
             </div>
         </footer>
