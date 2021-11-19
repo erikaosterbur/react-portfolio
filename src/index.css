@@ -2,10 +2,12 @@
     font-family: Optima, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    background-repeat: no-repeat;
+body { 
+    background: url('./images/background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: fixed;
 }
 
 #resume {
@@ -24,12 +26,6 @@ body {
     padding: 10px;
 }
 
-@media screen and (min-width: 768px){
-    body {
-        background-image: url('./images/background.jpg');
-    }
-}
-
 @media screen and (max-width: 768px) {
     #resume {
         width: 50%;
@@ -37,9 +33,6 @@ body {
 }
 
 @media screen and (max-width: 400px){
-    body {
-        background-image: url('./images/background-vertical.jpg');
-    }
     #resume {
         width: 70%;
     }
