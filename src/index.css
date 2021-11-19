@@ -3,11 +3,11 @@
 }
 
 :root {
-    --melon: #F5B39Bff;
-    --dark-sky-blue: #8EB9CAff;
-    --forest-green-traditional: #103F1Eff;
-    --blue-munsell: rgb(52, 111, 129);
-    --silver-pink: #C7B0A7ff;
+    --russian-green: #6A8A53ff;
+    --brown: #925E2Cff;
+    --morning-green: #96A591ff;
+    --tan: #CDB498ff;
+    --hunter-green: rgb(51, 77, 57);
 }
 
 body { 
@@ -16,11 +16,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 20px;
     height:1500px;
 }
 
 #header {
-    background-color: var(--blue-munsell);
+    background-color: var(--hunter-green);
 }
 
 #resume {
@@ -35,7 +36,7 @@ body {
 
 .footer {
     position: fixed;
-    background-color: var(--melon);
+    background-color: var(--morning-green);
     width: 100%;
     bottom: 0;
 }
