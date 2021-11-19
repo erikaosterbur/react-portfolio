@@ -2,12 +2,25 @@
     font-family: Optima, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+:root {
+    --melon: #F5B39Bff;
+    --dark-sky-blue: #8EB9CAff;
+    --forest-green-traditional: #103F1Eff;
+    --blue-munsell: rgb(52, 111, 129);
+    --silver-pink: #C7B0A7ff;
+}
+
 body { 
     background: url('./images/background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height:1500px;
+}
+
+#header {
+    background-color: var(--blue-munsell);
 }
 
 #resume {
@@ -20,6 +33,13 @@ body {
     box-shadow: 5px 5px 5px gray;
 }
 
+.footer {
+    position: fixed;
+    background-color: var(--melon);
+    width: 100%;
+    bottom: 0;
+}
+
 #footer-icons {
     color: white;
     font-size: 5em;
@@ -30,6 +50,9 @@ body {
     #resume {
         width: 50%;
     }
+    body {
+        height: 2000px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -38,6 +61,9 @@ body {
     }
     #footer-icons {
         font-size: 4em;
+    }
+    body {
+        height: 2000px;
     }
 }
 

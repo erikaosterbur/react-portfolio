@@ -3,7 +3,7 @@ import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope, FaInstagramSquare } 
 
 function Footer() {
     const handleMouseEnter = e => {
-        e.target.style.color = "black"
+        e.target.style.color = "var(--dark-sky-blue)"
     }
     const handleMouseLeave = e => {
         e.target.style.color = "white"
