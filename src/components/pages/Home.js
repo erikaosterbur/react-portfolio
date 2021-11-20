@@ -14,7 +14,7 @@ export default function Home() {
             marginLeft: "auto",
             marginRight: "auto",
             border: "6px solid white",
-            boxShadow: "10px 10px 5px gray"}}
+            boxShadow: "8px 8px 5px gray"}}
             />
           </div>
           <div className="col-sm-12 col-lg-7">

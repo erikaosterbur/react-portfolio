@@ -9,7 +9,7 @@ import PortfolioPage from '../../images/portfolio.png';
 export default function Portfolio() {
   return (
     <div className="m-4">
-      <h1 className="d-flex justify-content-center">Portfolio of Work</h1>
+      <h1 className="d-flex justify-content-center"><span>Portfolio of Work</span></h1>
       <div className="row d-flex justify-content-center">
         <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={PetMed} className="card-img-top" alt="pet dashboard displaying pets of user" />

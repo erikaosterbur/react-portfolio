@@ -4,7 +4,7 @@ import React from 'react';
 export default function About() {
   return (
     <div className="m-4">
-      <h1 className="d-flex justify-content-center">About Me</h1>
+      <h1 className="d-flex justify-content-center"><span>About Me</span></h1>
       <div className="col-12">
           <div className="card m-3">
             <div className="card-body">
@@ -24,59 +24,12 @@ export default function About() {
                 I have a passion for design and front end web development. 
                 I hope to use my skills I gained from teaching as a critical thinker and problem solver in my future position in web development.
               </p>
-              <ul>Languages and Technologies I am familiar with:
-                <li>
-                  HTML
-                </li>
-                <li>
-                  CSS
-                </li>
-                <li>
-                  Bootstrap
-                </li>
-                <li>
-                  JavaScript
-                </li>
-                <li>
-                  jQuery
-                </li>
-                <li>
-                  NodeJS
-                </li>
-                <li>
-                  Express
-                </li>
-                <li>
-                  Third Party APIs
-                </li>
-                <li>
-                  MySQL
-                </li>
-                <li>
-                  Sequelize
-                </li>
-                <li>
-                  MongoDB
-                </li>
-                <li>
-                  Mongoose
-                </li>
-                <li>
-                  Robo 3T
-                </li>
-                <li>
-                  Heroku
-                </li>
-                <li>
-                  Insomnia
-                </li>
-                <li>
-                  React
-                </li>
-                <li>
-                  MERN
-                </li>
-              </ul>
+              <p style={{textIndent: "20px"}}>
+                I am a mom to a fabulous little one named Anja and a pup named Ginny.
+                Our family loves to spend time together outdoors, travel, and visit family.
+                I am fascinated by the ocean. I would love to learn how to scuba dive and explore the deep blue.
+                I love to knit, hike, camp, and learn new things!
+              </p>
             </div>
           </div>
       </div>
