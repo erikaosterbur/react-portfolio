@@ -28,6 +28,10 @@ body {
     letter-spacing: 2px;
 }
 
+#header-mobile {
+    display: none;
+}
+
 #resume {
     width: 60%;
     height: auto;
@@ -66,24 +70,36 @@ form {
 }
 
 @media screen and (max-width: 768px) {
-    #header-item {
-        font-size: 5px;
-    }
     #resume {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 400px){
-    #header-item {
-        font-size: 5px;
-    }
     #resume {
         width: 70%;
     }
     #footer-icons {
         font-size: 3em;
     }
+    #header {
+        display: none;
+    }
+    #header-mobile {
+        display: flex;
+        background-color: var(--hunter-green);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        padding: 8px;
+    }
+    #basic-nav-dropdown {
+        color: white;
+    }
+   #mobile-icon {
+       font-size: 1.75rem;
+       padding: 5px;
+   }
 }
 
   

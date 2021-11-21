@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHome, FaUser, FaFolderOpen, FaFileAlt, FaEnvelopeOpenText } from "react-icons/fa";
+import { NavDropdown } from 'react-bootstrap';
 
 function Header({ currentPage, handlePageChange }) {
     return (
@@ -58,7 +59,22 @@ function Header({ currentPage, handlePageChange }) {
                     </div>
                 </div>
             </div>
+            <div id="header-mobile">
+                <div className="container">
+                    <div className="d-flex flex-wrap justify-content-center">
+                        <h1 className="col-sm-12 d-flex align-items-center">Erika Osterbur</h1>
+                        <NavDropdown title="Menu" id="basic-nav-dropdown" className="col-12 d-flex justify-content-center">
+                                <NavDropdown.Item href="#home" onClick={() => handlePageChange('Home')}><FaHome id="mobile-icon"/>Home</NavDropdown.Item>
+                                <NavDropdown.Item href="#about" onClick={() => handlePageChange('About')}><FaUser id="mobile-icon"/>About</NavDropdown.Item>
+                                <NavDropdown.Item href="#home" onClick={() => handlePageChange('Portfolio')}><FaFolderOpen id="mobile-icon"/>Portfolio</NavDropdown.Item>
+                                <NavDropdown.Item href="#home" onClick={() => handlePageChange('Resume')}><FaFileAlt id="mobile-icon"/>Resume</NavDropdown.Item>
+                                <NavDropdown.Item href="#contact" onClick={() => handlePageChange('Contact')}><FaEnvelopeOpenText id="mobile-icon"/>Contact</NavDropdown.Item>
+                        </NavDropdown>
+                    </div>
+                </div>
+            </div>
         </header>
+        
     )
 }
 export default Header;
