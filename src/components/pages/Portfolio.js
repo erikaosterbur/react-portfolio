@@ -14,7 +14,7 @@ export default function Portfolio() {
         <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={PetMed} className="card-img-top" alt="pet dashboard displaying pets of user" />
               <div className="card-body">
-                <h5 className="card-title">PetMed</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>PetMed</h5>
                 <ul className="card-text">
                       <li>
                         HTML + Handlebars
@@ -42,7 +42,7 @@ export default function Portfolio() {
             <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={Recipes} className="card-img-top" alt="recipe search page" />
               <div className="card-body">
-                <h5 className="card-title">Really Radical Recipes</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Really Radical Recipes</h5>
                 <ul className="card-text">
                   <li>
                     HTML
@@ -64,7 +64,7 @@ export default function Portfolio() {
             <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={Weather} className="card-img-top" alt="weather dashboard page" />
               <div className="card-body">
-                <h5 className="card-title">Weather Dashboard</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Weather Dashboard</h5>
                 <ul className="card-text">
                   <li>
                     HTML
@@ -86,7 +86,7 @@ export default function Portfolio() {
             <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={Team} className="card-img-top" alt="page featuring team members with their information" />
               <div className="card-body">
-                <h5 className="card-title">Team Profile Generator</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Team Profile Generator</h5>
                 <ul className="card-text">
                   <li>
                     HTML
@@ -114,7 +114,7 @@ export default function Portfolio() {
             <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={PortfolioPage} className="card-img-top" alt="portfolio homepage" />
               <div className="card-body">
-                <h5 className="card-title">Professional Portfolio</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Professional Portfolio</h5>
                 <ul className="card-text">
                   <li>
                     HTML
@@ -135,7 +135,7 @@ export default function Portfolio() {
             <div className="card m-2 col-10 col-md-5 col-lg-3">
               <img src={Blog} className="card-img-top" alt="blog homepage" />
               <div className="card-body">
-                <h5 className="card-title">Tech Blog</h5>
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Tech Blog</h5>
                 <ul className="card-text">
                   <li>
                     HTML
