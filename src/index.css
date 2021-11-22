@@ -1,15 +1,13 @@
 * {
     font-family: Optima, Verdana, Geneva, Tahoma, sans-serif;
 }
-
 :root {
-    --russian-green: #6A8A53ff;
+    --russian-green: rgb(104, 117, 101);
     --brown: #925E2Cff;
     --morning-green: #96A591ff;
-    --tan: rgb(121, 106, 88);
+    --tan: rgb(83, 73, 61);
     --hunter-green: rgb(51, 77, 57);
 }
-
 body { 
     background: url('./images/background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -17,21 +15,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-
 #main-container {
     margin-bottom: 100px;
 }
-
 #header {
     background-color: var(--hunter-green);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-
+#header-name {
+    color: white;
+    text-decoration: none;
+}
 #header-mobile {
     display: none;
 }
-
 #resume {
     width: 60%;
     height: auto;
@@ -39,31 +37,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 6px solid white;
-    box-shadow: 5px 5px 5px gray;
 }
-
 .footer {
     position: fixed;
     background-color: var(--morning-green);
     width: 100%;
     bottom: 0;
 }
-
 #footer-icons {
     color: var(--tan);
     font-size: 4em;
     padding: 10px;
 }
-
 h1 span {
-    background-color: var(--morning-green);
-    border: 2px solid var(--morning-green);
+    background-color: var(--russian-green);
+    border: 2px solid var(--russian-green);
     border-radius: 5px;
     padding: 5px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    color: white;
 }
-
 form {
     background-color: rgb(226, 208, 185);
     padding: 5px;

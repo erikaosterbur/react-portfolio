@@ -13,38 +13,31 @@ export default function Home() {
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
-            border: "6px solid white",
-            boxShadow: "8px 8px 5px gray"}}
+            border: "6px solid white"}}
             />
           </div>
           <div className="col-sm-12 col-lg-7">
               <div className="card m-3">
                 <div className="card-body">
-                 Hi there 👋
+                 Hi there!
                     <ul>
                       <li>
-                        😄 Pronouns: she/her
+                        Pronouns: she/her
                       </li>
                       <li>
-                        👩🏼‍🏫 Former teacher
+                        Former teacher
                       </li>
                       <li>
-                        🗣 Bilingual in English & Spanish
+                        Bilingual in English & Spanish
                       </li>
                       <li>
-                        🔭 Full stack coding bootcamp student at the University of Minnesota 👩🏼‍🎓 December 1, 2021
+                        Full stack coding bootcamp certificate from the University of Minnesota - December 1, 2021
                       </li>
                       <li>
-                        🌱 I’m currently learning ✨React✨
+                        I’m currently learning React.js
                       </li>
                       <li>
-                        👩‍💻 Front end web development is my specialty
-                      </li>
-                      <li>
-                        💬 Ask me about world travel 🌏 it's my true passion!
-                      </li>
-                      <li>
-                        📷 Amateur nature photographer
+                        Front end web development is my specialty
                       </li>
                     </ul>
                 </div>

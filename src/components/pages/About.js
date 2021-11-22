@@ -10,7 +10,7 @@ export default function About() {
             <div className="card-body">
               <p style={{textIndent: "20px"}}>
                 I graduated from Augsburg University with departmental honors and Summa Cum Laude in 2011 with a degree in Spanish.
-                After graduation, I spent one year in Guatemala working at a home for children.
+                After graduation, I spent one year in Guatemala volunteeringa at a home for children.
                 I returned to Minnesota in 2012 and began my career in education, working for Minneapolis Public Schools. 
                 As I earned my teaching certificate from the University of St. Thomas, I worked as an associate educator (paraprofessional).
                 In 2015 I began teaching 1st/2nd grade in a bilingual classroom. 
