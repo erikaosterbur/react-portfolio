@@ -1,8 +1,8 @@
 import React from 'react';
 import PetMed from '../../images/petmed.png';
+import Chats from '../../images/chats.png';
 import Recipes from '../../images/recipes.jpg';
 import Weather from '../../images/weather.png';
-import Team from '../../images/team.png';
 import Blog from '../../images/tech-blog.png';
 import PortfolioPage from '../../images/portfolio.png';
 
@@ -37,6 +37,40 @@ export default function Portfolio() {
                 </ul>
                 <a href="https://github.com/erikaosterbur/pet-tracker-app.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
                 <a href="https://group-1-pet-tracker.herokuapp.com/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
+              </div>
+            </div>
+            <div className="card m-2 col-10 col-md-5 col-lg-3">
+              <img src={Chats} className="card-img-top" alt="pet dashboard displaying pets of user" />
+              <div className="card-body">
+                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Friendly Group Chats</h5>
+                <ul className="card-text">
+                      <li>
+                        React
+                      </li>
+                      <li>
+                        Mongo
+                      </li>
+                      <li>
+                        JavaScript
+                      </li>
+                      <li>
+                        Express
+                      </li>
+                      <li>
+                        Node.js
+                      </li>
+                      <li>
+                        Heroku
+                      </li>
+                      <li>
+                        React Bootstrap
+                      </li>
+                      <li>
+                        Anime.js
+                      </li>
+                </ul>
+                <a href="https://github.com/SowmyaNagayya/friendly-group-chats.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
+                <a href="https://friendly-group.herokuapp.com/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
               </div>
             </div>
             <div className="card m-2 col-10 col-md-5 col-lg-3">
@@ -77,34 +111,6 @@ export default function Portfolio() {
                   </li>
                   <li>
                     OpenWeather API
-                  </li>
-                </ul>
-                <a href="https://github.com/erikaosterbur/weather-dashboard.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
-                <a href="https://erikaosterbur.github.io/weather-dashboard/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
-              </div>
-            </div>
-            <div className="card m-2 col-10 col-md-5 col-lg-3">
-              <img src={Team} className="card-img-top" alt="page featuring team members with their information" />
-              <div className="card-body">
-                <h5 className="card-title d-flex justify-content-center" style={{fontWeight: "bold"}}>Team Profile Generator</h5>
-                <ul className="card-text">
-                  <li>
-                    HTML
-                  </li>
-                  <li>
-                    CSS + Bootstrap
-                  </li>
-                  <li>
-                    JavaScript
-                  </li>
-                  <li>
-                    Node.js
-                  </li>
-                  <li>
-                    Jest
-                  </li>
-                  <li>
-                    Inquirer
                   </li>
                 </ul>
                 <a href="https://github.com/erikaosterbur/weather-dashboard.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
