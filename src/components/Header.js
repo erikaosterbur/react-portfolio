@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaUser, FaFolderOpen, FaFileAlt, FaEnvelopeOpenText } from "react-icons/fa";
+import { FaHome, FaUser, FaFolderOpen, FaFileAlt } from "react-icons/fa";
 import { NavDropdown } from 'react-bootstrap';
 
 function Header({ currentPage, handlePageChange }) {
@@ -48,15 +48,6 @@ function Header({ currentPage, handlePageChange }) {
                                     Resume
                                 </a>
                             </li>
-                            <li>
-                                <a href="#contact" 
-                                    style={{fontSize: "18px"}}
-                                    onClick={() => handlePageChange('Contact')}
-                                    className={currentPage === 'Contact' ? 'nav-link active text-secondary' : 'nav-link text-white'}>
-                                        <div className="bi d-flex justify-content-center mx-auto mb-1"><FaEnvelopeOpenText style={{fontSize: "2.5rem"}} /></div>
-                                    Contact
-                                </a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +61,6 @@ function Header({ currentPage, handlePageChange }) {
                                 <NavDropdown.Item href="#about" onClick={() => handlePageChange('About')}><FaUser id="mobile-icon"/>About</NavDropdown.Item>
                                 <NavDropdown.Item href="#home" onClick={() => handlePageChange('Portfolio')}><FaFolderOpen id="mobile-icon"/>Portfolio</NavDropdown.Item>
                                 <NavDropdown.Item href="#home" onClick={() => handlePageChange('Resume')}><FaFileAlt id="mobile-icon"/>Resume</NavDropdown.Item>
-                                <NavDropdown.Item href="#contact" onClick={() => handlePageChange('Contact')}><FaEnvelopeOpenText id="mobile-icon"/>Contact</NavDropdown.Item>
                         </NavDropdown>
                     </div>
                 </div>
