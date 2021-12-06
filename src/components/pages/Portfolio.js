@@ -69,7 +69,7 @@ export default function Portfolio() {
                         Anime.js
                       </li>
                 </ul>
-                <a href="https://github.com/SowmyaNagayya/friendly-group-chats.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
+                <a href="https://github.com/erikaosterbur/friendly-group-chats.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
                 <a href="https://friendly-group.herokuapp.com/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
               </div>
             </div>
@@ -91,8 +91,8 @@ export default function Portfolio() {
                     Spoonacular API
                   </li>
                 </ul>
-                <a href="https://github.com/Preston0214/really-radical-recipes.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
-                <a href="https://preston0214.github.io/really-radical-recipes/index.html" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
+                <a href="https://github.com/erikaosterbur/really-radical-recipes.git" className="btn btn-secondary m-1 d-flex justify-content-center">View on GitHub</a>
+                <a href="https://erikaosterbur.github.io/really-radical-recipes/" className="btn btn-dark m-1 d-flex justify-content-center">View Deployed App</a>
               </div>
             </div>
             <div className="card m-2 col-10 col-md-5 col-lg-3">
