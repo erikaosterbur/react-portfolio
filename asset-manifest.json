@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9cc835cb.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.a6e5070e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.a6e5070e.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.57eb866d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.73f0af3f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.73f0af3f.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
     "static/css/2.383c0125.chunk.css": "/react-portfolio/static/css/2.383c0125.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.587c0ba3.chunk.js.map": "/react-portfolio/static/js/2.587c0ba3.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.383c0125.chunk.css.map": "/react-portfolio/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.9cc835cb.chunk.css.map": "/react-portfolio/static/css/main.9cc835cb.chunk.css.map",
+    "static/css/main.57eb866d.chunk.css.map": "/react-portfolio/static/css/main.57eb866d.chunk.css.map",
     "static/js/2.587c0ba3.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.587c0ba3.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react-portfolio/static/media/background.a3a95072.jpg",
     "static/media/chats.b8332f5f.png": "/react-portfolio/static/media/chats.b8332f5f.png",
@@ -18,7 +18,7 @@
     "static/media/petmed.ecba86bc.png": "/react-portfolio/static/media/petmed.ecba86bc.png",
     "static/media/portfolio.90d8cb95.png": "/react-portfolio/static/media/portfolio.90d8cb95.png",
     "static/media/recipes.1928e9a1.jpg": "/react-portfolio/static/media/recipes.1928e9a1.jpg",
-    "static/media/resume.7a08b9f9.jpg": "/react-portfolio/static/media/resume.7a08b9f9.jpg",
+    "static/media/resume.5d933b24.jpg": "/react-portfolio/static/media/resume.5d933b24.jpg",
     "static/media/tech-blog.956a5868.png": "/react-portfolio/static/media/tech-blog.956a5868.png",
     "static/media/weather.86804cc3.png": "/react-portfolio/static/media/weather.86804cc3.png"
   },
@@ -26,7 +26,7 @@
     "static/js/runtime-main.37b83d9e.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.587c0ba3.chunk.js",
-    "static/css/main.9cc835cb.chunk.css",
-    "static/js/main.a6e5070e.chunk.js"
+    "static/css/main.57eb866d.chunk.css",
+    "static/js/main.73f0af3f.chunk.js"
   ]
 }
