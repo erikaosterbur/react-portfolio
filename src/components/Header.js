@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaHome, FaUser, FaFolderOpen, FaFileAlt } from "react-icons/fa";
+import { BsTools } from "react-icons/bs";
 import { NavDropdown } from 'react-bootstrap';
 
 function Header({ currentPage, handlePageChange }) {
@@ -40,6 +41,15 @@ function Header({ currentPage, handlePageChange }) {
                                 </a>
                             </li>
                             <li>
+                                <a href="#tools" 
+                                    style={{fontSize: "18px"}}
+                                    onClick={() => handlePageChange('Tools')}
+                                    className={currentPage === 'Tools' ? 'nav-link active text-secondary' : 'nav-link text-white'}>
+                                        <div className="bi d-flex justify-content-center mx-auto mb-1"><BsTools style={{fontSize: "2.5rem"}} /></div>
+                                    Toolkit
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#resume"
                                     style={{fontSize: "18px"}}
                                     onClick={() => handlePageChange('Resume')}
@@ -59,8 +69,9 @@ function Header({ currentPage, handlePageChange }) {
                         <NavDropdown title="Menu" id="basic-nav-dropdown" className="col-12 d-flex justify-content-center">
                                 <NavDropdown.Item href="#home" onClick={() => handlePageChange('Home')}><FaHome id="mobile-icon"/>Home</NavDropdown.Item>
                                 <NavDropdown.Item href="#about" onClick={() => handlePageChange('About')}><FaUser id="mobile-icon"/>About</NavDropdown.Item>
-                                <NavDropdown.Item href="#home" onClick={() => handlePageChange('Portfolio')}><FaFolderOpen id="mobile-icon"/>Portfolio</NavDropdown.Item>
-                                <NavDropdown.Item href="#home" onClick={() => handlePageChange('Resume')}><FaFileAlt id="mobile-icon"/>Resume</NavDropdown.Item>
+                                <NavDropdown.Item href="#portfolio" onClick={() => handlePageChange('Portfolio')}><FaFolderOpen id="mobile-icon"/>Portfolio</NavDropdown.Item>
+                                <NavDropdown.Item href="#tools" onClick={() => handlePageChange('Tools')}><BsTools id="mobile-icon"/>Toolkit</NavDropdown.Item>
+                                <NavDropdown.Item href="#resume" onClick={() => handlePageChange('Resume')}><FaFileAlt id="mobile-icon"/>Resume</NavDropdown.Item>
                         </NavDropdown>
                     </div>
                 </div>
