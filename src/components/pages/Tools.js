@@ -4,7 +4,7 @@ export default function Tools() {
     return (
         <>
             <div className="m-4">
-                <h1 className="d-flex justify-content-center"><span>My Tech Toolkit</span></h1>
+                <h1 className="d-flex justify-content-center" id="toolTitle"><span>My Tech Toolkit</span></h1>
                 <div className="row col-12 d-flex justify-content-center">
                     <div className="card col-10 col-lg-4 m-3">
                         <div className="card-body m-auto">
