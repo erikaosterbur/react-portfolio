@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.34f92362.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b778df68.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b778df68.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.9d039d22.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9d039d22.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.37b83d9e.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.37b83d9e.js.map",
     "static/css/2.383c0125.chunk.css": "/react-portfolio/static/css/2.383c0125.chunk.css",
@@ -15,9 +15,9 @@
     "static/media/index.css": "/react-portfolio/static/media/background.a3a95072.jpg",
     "static/media/badge.875e85e8.png": "/react-portfolio/static/media/badge.875e85e8.png",
     "static/media/chats.b8332f5f.png": "/react-portfolio/static/media/chats.b8332f5f.png",
-    "static/media/erika.70dee415.JPG": "/react-portfolio/static/media/erika.70dee415.JPG",
     "static/media/petmed.ecba86bc.png": "/react-portfolio/static/media/petmed.ecba86bc.png",
     "static/media/portfolio.90d8cb95.png": "/react-portfolio/static/media/portfolio.90d8cb95.png",
+    "static/media/profile-pic.46dbd96b.jpg": "/react-portfolio/static/media/profile-pic.46dbd96b.jpg",
     "static/media/recipes.1928e9a1.jpg": "/react-portfolio/static/media/recipes.1928e9a1.jpg",
     "static/media/resume.5d933b24.jpg": "/react-portfolio/static/media/resume.5d933b24.jpg",
     "static/media/tech-blog.956a5868.png": "/react-portfolio/static/media/tech-blog.956a5868.png",
@@ -28,6 +28,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.d9c337d5.chunk.js",
     "static/css/main.34f92362.chunk.css",
-    "static/js/main.b778df68.chunk.js"
+    "static/js/main.9d039d22.chunk.js"
   ]
 }

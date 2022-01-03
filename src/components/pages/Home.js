@@ -1,15 +1,10 @@
 import React from 'react';
-import Headshot from '../../images/erika.JPG';
+import Headshot from '../../images/profile-pic.jpg';
 import Badge from "../../images/badge.png";
 
 export default function Home() {
   return (
     <div className="m-4">
-      <div className="row">
-        <div className="d-flex justify-content-center">
-          <img src={Badge} style={{width:180, height:"auto"}}></img>
-        </div>
-      </div>
       <div className="row">
         <div className="col-sm-12 col-lg-5">
           <img src={Headshot} alt="headshot of Erika Osterbur"
@@ -23,6 +18,9 @@ export default function Home() {
             />
           </div>
           <div className="col-sm-12 col-lg-7">
+            <div className="d-flex">
+              <img src={Badge} alt="U of M Coding Badge" style={{width:180, height:"auto"}}></img>
+            </div>
               <div className="card m-3">
                 <div className="card-body">
                  Hi there!
