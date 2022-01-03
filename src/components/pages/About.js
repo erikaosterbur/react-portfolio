@@ -1,4 +1,6 @@
 import React from 'react';
+import Family from '../../images/family.jpg';
+
 
 
 export default function About() {
@@ -32,6 +34,17 @@ export default function About() {
               </p>
             </div>
           </div>
+      </div>
+      <div>
+        <img src={Family} alt="Family photo"
+          style={{
+          width: "60%",
+          height: "auto",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+          border: "6px solid white"}}
+        />
       </div>
     </div>
   );
