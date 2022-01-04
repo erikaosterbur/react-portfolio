@@ -36,15 +36,7 @@ export default function About() {
           </div>
       </div>
       <div>
-        <img src={Family} alt="Family photo"
-          style={{
-          width: "60%",
-          height: "auto",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-          border: "6px solid white"}}
-        />
+        <img src={Family} alt="Family" id="familyPhoto"/>
       </div>
     </div>
   );

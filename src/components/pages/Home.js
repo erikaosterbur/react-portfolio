@@ -7,19 +7,11 @@ export default function Home() {
     <div className="m-4">
       <div className="row">
         <div className="col-sm-12 col-lg-5">
-          <img src={Headshot} alt="headshot of Erika Osterbur"
-            style={{
-            width: "80%",
-            height: "auto",
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-            border: "6px solid white"}}
-            />
+          <img id="headshot" src={Headshot} alt="headshot of Erika Osterbur" />
           </div>
           <div className="col-sm-12 col-lg-7">
             <div className="d-flex">
-              <img src={Badge} alt="U of M Coding Badge" style={{width:180, height:"auto"}}></img>
+              <img id="badge" src={Badge} alt="U of M Coding Badge"></img>
             </div>
               <div className="card m-3">
                 <div className="card-body">
